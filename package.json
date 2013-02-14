@@ -1,0 +1,24 @@
+{
+  "name": "twit-webrtc",
+  "description": "Fullscreen video calls with WebRTC",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "webrtc.io": "latest",
+    "webrtc.io-client": "latest",
+    "express": "3.1.0",
+    "ws": "latest"
+  },
+  "scripts": {
+    "start": "src/server.js"
+  },
+  "author": "Kalle Rainio",
+  "contributors": [
+    {
+      "name": "Kalle Rainio",
+      "email": "kallerainio@gmail.com"
+    }
+  ]
+}

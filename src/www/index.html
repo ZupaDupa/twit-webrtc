@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>TWiT WebRTC</title>
+		
+		<!-- jQuery UI -->
+		<link href="css/ui-darkness/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+		
+		<!-- Custom stylesheet -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- jQuery & jQuery UI -->
+		<script src="js/jquery-1.9.0.js"></script>
+		<script src="js/jquery-ui-1.10.0.custom.js"></script>
+		
+		<!-- Include javascript that handles the WebRTC connections -->
+		<script src="js/webrtc.io.js"></script>
+		
+	</head>
+	
+	
+	<body onload="init()">
+
+		<!-- Video container -->
+		<div id="videos">
+			
+		</div>
+		
+		<div id="myvideo">
+			<video id="you" class="flip" autoplay></video>
+		</div>
+		
+		
+		<div id="notification_container">
+			<div id="notification">
+				Choose your devices and click "Allow" from the bar above.
+				<br/><br/>
+				<span class="small_notification">Reload the page if the bar does not appear.</span>
+			</div>
+		</div>
+
+
+		<!-- Interface script -->
+		<script type="text/javascript" src="js/interface.js"></script>
+
+	</body>
+</html>
