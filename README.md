@@ -1,4 +1,4 @@
-# WebRTC app for TWiT
+# WebRTC app for TWiT.tv
 ==============
 
 This is a WebRTC video calling app customized to be suitable for use in the [TWiT.tv netcasting network](http://twit.tv/).
@@ -26,7 +26,7 @@ git clone git@github.com:ZupaDupa/twit-webrtc.git
 ```
 
 ```bash 
-cd zupchat
+cd twit-webrtc
 ```
 
 ```bash 
@@ -37,12 +37,6 @@ npm install
 cd src
 ```
 
-Install these dependencies if you don't already have them
-```bash 
-npm install express
-npm install webrtc.io
-```
-
 Run the server
 ```bash 
 node server.js
@@ -51,11 +45,11 @@ node server.js
 
 In a version of Chrome that has WebRTC support.
 
-go to [localhost:8000](http://localhost:8000)
+go to [localhost:8000](http://localhost:9000)
 
 click allow to see your camera
 
-go to [localhost:8000](http://localhost:8000)
+go to [localhost:8000](http://localhost:9000)
 
 click allow to see your camera and the connection will be made between your to open windows.
 
